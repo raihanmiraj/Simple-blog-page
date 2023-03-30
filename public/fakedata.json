@@ -1,0 +1,46 @@
+[{
+"id":1,
+"authorName":"Shelena Gomez",
+"title":"Unlocking the Power of AI: Strategies for Successful Implementation",
+"image":"/images/pic1.jpg",
+"coverImage":"/images/pic1.jpg",
+"authorImg":"/images/author1.jpg",
+"readTime":"5",
+"publishDate":"10/20/2019",
+"tag":["chatgpt", "ai"]
+},
+{
+    "id":1,
+    "authorName":"Nazmoon Purny",
+    "title":"The Future of Work: How AI is Changing the Landscape",
+    "image":"/images/pic2.jpg",
+    "coverImage":"/images/pic2.jpg",
+    "authorImg":"/images/author2.jpg",
+    "readTime":"5",
+    "publishDate":"10/20/2019",
+"tag":["chatgpt", "ai"]
+    }
+,
+{
+    "id":1,
+    "authorName":"Raihan Miraj",
+    "title":"From Chatbots to Virtual Assistants: The Evolution of AI in Customer Service",
+    "image":"/images/pic3.jpg",
+    "coverImage":"/images/pic3.jpg",
+    "authorImg":"/images/author3.jpg",
+    "readTime":"5",
+    "publishDate":"10/20/2019",
+"tag":["chatgpt", "ai"]
+    }
+,
+{
+    "id":1,
+    "authorName":"Nazmul Hasan",
+    "title":"Breaking Down Bias in AI: Challenges and Solutions for a Fairer Future" ,
+    "image":"/images/pic4.jpg",
+    "coverImage":"/images/pic4.jpg",
+    "authorImg":"/images/author4.jpg",
+    "readTime":"5",
+    "publishDate":"10/20/2019",
+"tag":["chatgpt", "ai"]
+    }]

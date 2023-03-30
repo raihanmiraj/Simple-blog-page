@@ -1,0 +1,9 @@
+[{
+    "question":"Difference Between State vs Props?",
+    "answer":"Props refer to the data passed into a component when it is rendered. They are read-only and cannot be modified once set.<br/>State refers to the state of the component at any given time. It can be modified during the lifecycle of the component."
+},
+{
+    "question":"Difference Between State vs Props?",
+    "answer":""
+}
+]

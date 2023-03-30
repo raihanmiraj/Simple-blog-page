@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 2px 0px;
+    /* padding: 20px  8px 2px 8px; */
+}
+
+* {
+    font-family: 'Exo 2';
+}
+
+/* .main{
+display: flex;
+}
+.content{
+flex-basis: 65%;
+}
+.sidebar{
+flex-basis: 35%;
+} */
+.main {
+    margin-top: 20px;
+}
+
+.spend-time {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.bookmark-blog {
+    margin-top: 24px;
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.single-blog {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.card-body>h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-body>p>span {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card-body>.markasread{
+    margin-top: 20px;
+    font-size: 20px;
+line-height: 24px;
+ text-decoration-line: underline;
+
+color: #6047EC;
+}
+
+.card-img-custom {
+    /* margin: 10px; */
+}
+
+.sidebar {
+    margin-top: 10px;
+}
+
+.bookmark-blog>h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
