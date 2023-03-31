@@ -110,4 +110,36 @@ font-size: 16px;
   .quesandans {
    width: 100%!important;
   }
+  .card-body>h1 {
+    font-weight: 600;
+  font-size: 25px;
+  }
+ .card-body>p>span {
+ font-weight: 500;
+    font-size: 15px;
+ 
+  }
+  .card-body>.markasread{
+    font-size: 18px;
+  margin-top: 5px;
+  }
+  
+   
+  .authorName{
+    font-weight: 700;
+    font-size: 18px;
+  }
+   .publishDate{
+    font-weight: 500;
+  font-size: 14px;
+   }
+  
+  .bookmark-blog>h3 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .quesandans {
+    width: 60%;
+   }
 }

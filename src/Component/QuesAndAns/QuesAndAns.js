@@ -1,9 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import SingleQuestion from '../SingleQuestion/SingleQuestion';
 
 const QuesAndAns = () => {
+    const [quesData, setQuesData] = useState([]);
+    const [loading, setLoading] = useState(true);
+   
+    useEffect(() => {
+      if (loading) {
+        fetch("/question.json")
+          .then((response) => response.json())
+          .then((data) => {
+            setQuesData(data)
+            setLoading(false);
+          });
+         
+      }
+  
+    });
+
+
+    var quesRender;
+    if(!loading){
+      quesRender =  quesData.map(e=> {
+        return <SingleQuestion key={e.id}  question={e.question} answer={e.answer}/>
+      })
+     
+    }
+
     return (
         <>
-           <div class="card mb-3">
+        {quesRender}
+           {/* <div class="card mb-3">
   <div class="card-body">
     <h3>Difference Between State vs Props?</h3>
   <p class="card-text ms-2">Props refer to the data passed into a component when it is rendered. They are read-only and cannot be modified once set.<br/>
@@ -50,7 +77,7 @@ This process allows React to provide a fast and efficient way to build complex u
   </p>
 
   </div>
-</div> 
+</div>  */}
 
 
 

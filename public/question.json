@@ -1,9 +1,23 @@
-[{
-    "question":"Difference Between State vs Props?",
-    "answer":"Props refer to the data passed into a component when it is rendered. They are read-only and cannot be modified once set.<br/>State refers to the state of the component at any given time. It can be modified during the lifecycle of the component."
-},
-{
-    "question":"Difference Between State vs Props?",
-    "answer":""
-}
-]
+[
+    {
+      "id": 1,
+      "question": "What is the difference between state and props in React?",
+      "answer": "Props are passed from parent components to child components and cannot be modified by the child components. State, on the other hand, is used to store data that can change over time and can only be accessed and modified within the component itself."
+    },
+    {
+      "id": 2,
+      "question": "What is useState hook in React?",
+      "answer": "useState is a built-in hook in React that allows functional components to have state. It returns a state variable and a function to update that variable. When the state is updated, the component will re-render with the new state values."
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "useEffect is a built-in hook in React that allows you to perform side effects after rendering. Side effects may include fetching data, manipulating the DOM, or adding event listeners. useEffect is commonly used to manage the lifecycle of a component and perform actions after it has mounted or updated."
+    },
+    {
+      "id": 4,
+      "question": "How does React work internally?",
+      "answer": "React uses a virtual DOM to efficiently render components based on changes in state or props. When a component's state or props change, React will update the virtual DOM and compare it to the previous version. Then, it will make the minimum number of changes necessary to update the actual DOM, resulting in faster performance and a better user experience."
+    }
+  ]
+  

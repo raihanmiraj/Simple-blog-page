@@ -7,7 +7,7 @@
 "authorImg":"/images/author1.jpg",
 "readTime":"5",
 "publishDate":"10/20/2019",
-"tag":["chatgpt", "ai"]
+"tag":["AI Implementation", "Strategy", "Technology", "Innovation", "Business"]
 },
 {
     "id":1,
@@ -18,7 +18,7 @@
     "authorImg":"/images/author2.jpg",
     "readTime":"5",
     "publishDate":"10/20/2019",
-"tag":["chatgpt", "ai"]
+"tag":["Future of Work", "AI Impact", "Automation", "Job Market", "Workplace"]
     }
 ,
 {
@@ -30,7 +30,7 @@
     "authorImg":"/images/author3.jpg",
     "readTime":"5",
     "publishDate":"10/20/2019",
-"tag":["chatgpt", "ai"]
+"tag":["Customer Service", "Chatbots", "Virtual Assistants", "AI Evolution", "User Experience"]
     }
 ,
 {
@@ -42,5 +42,9 @@
     "authorImg":"/images/author4.jpg",
     "readTime":"5",
     "publishDate":"10/20/2019",
-"tag":["chatgpt", "ai"]
+"tag":["Bias in AI", "Ethics", "Diversity and Inclusion", "Algorithmic Fairness", "Social Responsibility"]
+
+
+
+
     }]
